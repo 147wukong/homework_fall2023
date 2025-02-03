@@ -15,7 +15,7 @@ A. (Recommended) Install with conda:
 	```
 	conda create -n cs285 python=3.9
 	```
-
+**conda install -c conda-forge box2d-py (if you failed to build installable wheels for some pyproject.toml based projects (box2d-py) )**
 	3. activate the environment (do this every time you open a new terminal and want to run code):
 	```
 	source activate cs285
